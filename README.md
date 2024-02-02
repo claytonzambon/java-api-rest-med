@@ -14,4 +14,8 @@ Dependências do projeto:
 - Spring Boot Starter Validation 3.2.2;
 - Flyway Core 9.22.3;
 - Flwway MySql 9.22.3;
+<<<<<<< HEAD
 - MySql Connector-J 8.3.0
+=======
+- MySql Connector-J 8.3.0
+>>>>>>> 198fa432a929e550d00da7003bd63b81f9133a39
