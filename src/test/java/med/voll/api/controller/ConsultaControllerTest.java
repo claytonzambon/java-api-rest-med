@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ConsultaControllerTest {
 
     @Test
-    @DisplayName("")
+    @DisplayName("Deveria devolver codigo 400 quando informacoes estao invalidas")
     void agendar_cenario1(){
 
     }
