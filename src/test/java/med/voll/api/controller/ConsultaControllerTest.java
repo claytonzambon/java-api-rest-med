@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -18,7 +19,8 @@ class ConsultaControllerTest {
 
     @Test
     @DisplayName("Deveria devolver codigo 400 quando informacoes estao invalidas")
-    void agendar_cenario1(){
-
+    void agendar_cenario1() throws Exception {
+        var response = mvc.perform(post("/agendar"))
+                .andReturn().getResponse();
     }
 }
